@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mumma's Magic</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffb347;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #ffcc80;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .menu-table th, .menu-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .menu-table th {
+      background-color: #ffe0b2;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background-color: #ff9800;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #ffb347;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mumma's Magic</h1>
+    <p>Every bite feels like home</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Weekly Menu</h2>
+    <table class="menu-table">
+      <tr>
+        <th>Day</th>
+        <th>Veg Meal</th>
+        <th>Non-Veg Meal</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Palak Paneer + Roti</td>
+        <td>Chicken Curry + Rice</td>
+        <td>₹150</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Rajma + Rice</td>
+        <td>Egg Masala + Paratha</td>
+        <td>₹140</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </table>
+  </section>
+
+  <section id="about">
+    <h2>About Mumma</h2>
+    <p>
+      Mumma’s Magic was born from the love of home-cooked meals and the joy of sharing them. Every dish is handcrafted by Mumma herself, using traditional recipes passed down through generations. Whether you're missing home or just craving something soulful, Mumma’s Magic brings comfort to your plate.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Mumma's Magic | Bengaluru, India</p>
+  </footer>
+
+</body>
+</html>
